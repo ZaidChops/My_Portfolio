@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Lexend:wght@100..900&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.header {
+  position: relative;
+  height: 100vh;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../src/assets/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(
+    bottom,
+    #fff 0,
+    rgba(105, 90, 166, 0.35) 99%,
+    rgba(105, 90, 166, 0.5) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    #fff 0,
+    rgba(105, 90, 166, 0.35) 99%,
+    rgba(105, 90, 166, 0.5) 100%
+  );
+}
+
+#p1{
+  height: 400px;
+  border-radius: 90px 5px 90px 90px;
+  border-bottom: 2px solid #7A82AF;
+  box-shadow: 10px  #7A82AF;
+}
