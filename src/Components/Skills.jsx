@@ -10,7 +10,7 @@ import mongoimg from "../assets/mongo-logo.png";
 import nodeimg from "../assets/Node-img.png";
 import expressimg from "../assets/Express-img.png";
 import dsaimg from "../assets/Dsa-img.png";
-import tailimg from "../assets/tailwind-img.png";
+import tailimg from "../assets/Tailwind-img.png";
 import muiImg from "../assets/Mui-img.png";
 import Bootstrapimg from "../assets/Bootstrap-img.png";
 
